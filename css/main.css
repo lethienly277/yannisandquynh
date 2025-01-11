@@ -1307,6 +1307,18 @@ img {
 	.pt_blog .primary-block {
 		margin-bottom: 60px;
 	}
+	.banner-text_names {
+		padding: 0 30px !important;
+	}
+	.banner-text span {
+		padding: 0 30px !important;
+	}
+	h2, .heading h2 {
+		font-size: 36px !important;
+	}
+	span.banner-text_names {
+		font-size: 32px !important;
+	}
 }
 .blog-item {
 	margin-bottom: 50px;
