@@ -496,7 +496,7 @@ img {
 	position: fixed;
 	z-index: 1901;
 	width: 100%;
-	background: black;
+	/*background: black;*/
 	right: 0;
 	top: 0;
 	bottom: 0;
@@ -513,6 +513,9 @@ img {
 	-ms-transform: translateX(100%);
 	transform: translateX(100%);
 	transition: all 0.5s ease;
+	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url('../img/rock-island-club4.jpg');
+	background-size: cover;
+	text-shadow: 2px 3px 3px #000;
 }
 .offcanvas #offcanvas {
 	-ms-transform: translateX(0px);
