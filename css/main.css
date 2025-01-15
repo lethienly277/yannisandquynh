@@ -1985,4 +1985,9 @@ footer .copyright .block {
 		border-right-width: 0;
 	}
 }
+.what-load {
+	position: fixed;
+	bottom: 30px;
+	right: 20px;
+}
 /*# sourceMappingURL=main.css.map */
