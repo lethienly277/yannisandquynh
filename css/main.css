@@ -1987,7 +1987,8 @@ footer .copyright .block {
 }
 .what-load {
 	position: fixed;
-	bottom: 30px;
+	bottom: 15px;
 	right: 20px;
+	z-index: 9999;
 }
 /*# sourceMappingURL=main.css.map */
