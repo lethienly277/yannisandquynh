@@ -1303,6 +1303,7 @@ img {
 .pt_blog .nav-toggle {
 	position: absolute;
 }
+
 @media only screen and (max-width: 767px) {
 	.pt_blog .primary-block {
 		margin-bottom: 60px;
@@ -1311,13 +1312,21 @@ img {
 		padding: 0 30px !important;
 	}
 	.banner-text span {
-		padding: 0 24px !important;
+		padding: 0 30px !important;
 	}
 	h2, .heading h2 {
 		font-size: 36px !important;
 	}
 	span.banner-text_names {
 		font-size: 32px !important;
+	}
+	.display-tc h1 {
+		padding-left: 0.72em;
+	}
+}
+@media only screen and (max-width: 390px) {
+	.display-tc h1 {
+		padding-left: 12px;
 	}
 }
 .blog-item {
