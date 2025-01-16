@@ -31,11 +31,11 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 h1 {
 	font-size: 60px;
-	font-family: "Good Vibes Pro", cursive;
+	font-family: "Open Sans", sans-serif;
 }
 h2 {
 	font-size: 50px;
-	font-family: "Good Vibes Pro", cursive;
+	font-family: "Open Sans", sans-serif;
 }
 h3 {
 	font-size: 30px;
@@ -281,7 +281,7 @@ ol {
 	text-shadow: 2px 3px 3px #000;
 }
 span.banner-text_names {
-	font-family: "Good Vibes Pro", cursive;
+	font-family: "Open Sans", cursive;
 	font-size: 40px;
 	line-height: 43px;
 	position: relative;
@@ -1318,10 +1318,11 @@ img {
 		padding: 0 30px !important;
 	}
 	h2, .heading h2 {
-		font-size: 36px !important;
+		font-size: 24px !important;
 	}
 	span.banner-text_names {
-		font-size: 32px !important;
+		font-size: 25px !important;
+		font-weight: 500;
 	}
 	.display-tc h1 {
 		padding-left: 0.72em;
@@ -1752,7 +1753,7 @@ footer .copyright .block {
 }
 .countdown .heading h2, .countdown .heading p {
 	color: #FFFFFF;
-	text-shadow: 2px 3px 3px #000;
+	text-shadow: 1px 2px 2px #000;
 }
 @media only screen and (min-width: 768px) {
 	.timer {
@@ -1772,8 +1773,8 @@ footer .copyright .block {
 }
 .timer .timer-item_text {
 	color: #FFFFFF;
-	font-family: "Good Vibes Pro", cursive;
-	font-size: 34px;
+	font-family: "Open Sans", cursive;
+	font-size: 20px;
 }
 .timer .timer-item {
 	/* coutndown blocks */
