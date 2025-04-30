@@ -339,9 +339,9 @@ img {
 }
 .navbar.affix {
 	position: fixed;
-	background: white;
+	background: black;
 	transition: all 0.5s ease;
-	border-bottom: 1px solid #ccc;
+	border-bottom: 1px solid black;
 }
 .navbar.affix a {
 	color: #000000;
@@ -570,7 +570,6 @@ img {
 .nav-toggle {
 	position: fixed;
 	right: 0px;
-	top: 10px;
 	z-index: 21;
 	padding: 6px 0 0 0;
 	display: block;

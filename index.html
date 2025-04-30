@@ -44,23 +44,6 @@
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="icon" type="image/x-icon" href="img/apple-touch-icon.png">
 
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
-	<style>
-		#pdf-container {
-			width: 100%;
-			height: 1200px;
-			margin: 20px auto;
-			border: 1px solid #ddd;
-			background: #fff;
-			overflow: hidden;
-		}
-		#pdf-viewer {
-			width: 100%;
-			height: 100%;
-			border: none;
-		}
-	</style>
-
 	</head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
@@ -88,7 +71,7 @@
 								<a class="page-scroll" href="#hotel">Island information</a>
 							</li>
 							<li>
-								<a class="page-scroll" href="#pdf-section">Brochure</a>
+								<a href="PDF/QY Wedding Brochure PDF.pdf" target="_blank">Brochure</a>
 							</li>
 						</ul>
 					</div>
@@ -178,7 +161,7 @@
 				</div>
 			</div>
 		</section>
-		<section id="couple-story" class="section couple-story section-gray">
+		<section id="couple-story" class="section couple-story">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12 text-center heading">
@@ -252,6 +235,29 @@
 			</div>
 		</section>
 
+		<section id="documents" class="section">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 text-center heading" style="margin-bottom: 1em !important;">
+						<h2>Wedding Brochure</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<div class="document-container text-center">
+							<a href="PDF/QY Wedding Brochure PDF.pdf" target="_blank" class="document-link">
+								<div class="document-item">
+									<i class="fa fa-file-pdf-o" style="font-size: 48px; color: #e74c3c;"></i>
+									<h3>Wedding Brochure</h3>
+									<p>Yannis and Quynh</p>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
 		<section id="invitation" class="section invitation section-gray">
 			<div class="container">
 				<div class="row">
@@ -274,26 +280,6 @@
 					<div class="col-md-6">
 						<div class="video bg">
 							<div class="overlay"></div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<section id="pdf-section" class="section">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12 text-center heading">
-						<h2>Wedding Brochure</h2>
-						<p>View our wedding brochure for more details</p>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-12">
-						<div id="pdf-container">
-							<iframe id="pdf-viewer" 
-								src="PDF/QY Wedding Brochure PDF.pdf#toolbar=0&navpanes=0&view=FitH"
-								type="application/pdf">
-							</iframe>
 						</div>
 					</div>
 				</div>
@@ -352,5 +338,43 @@
 	<!-- Main -->
 	<script src="js/main.js"></script>
 	<script src="https://www.cognitoforms.com/f/iframe.js"></script>
+
+	<style>
+		.document-container {
+			padding: 20px;
+		}
+		.document-link {
+			text-decoration: none;
+			color: inherit;
+			display: inline-block;
+			transition: all 0.3s ease;
+		}
+		.document-item {
+			background: white;
+			padding: 30px;
+			border-radius: 8px;
+			box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+			transition: all 0.3s ease;
+			max-width: 300px;
+			margin: 0 auto;
+		}
+		.document-item:hover {
+			transform: translateY(-5px);
+			box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+		}
+		.document-item h3 {
+			margin: 15px 0 10px;
+			color: #333;
+		}
+		.document-item p {
+			color: #666;
+			margin-bottom: 0;
+		}
+		@media screen and (max-width: 767px) {
+			.document-item {
+				padding: 20px;
+			}
+		}
+	</style>
 </body>
 </html>
